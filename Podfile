@@ -9,6 +9,7 @@ target 'telstra_poc' do
 	pod 'Masonry'
 	pod 'AFNetworking'
     pod 'SDWebImage/WebP'
+    pod 'JSONModel'
   target 'telstra_pocTests' do
     inherit! :search_paths
     # Pods for testing
