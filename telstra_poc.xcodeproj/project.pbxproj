@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		148A0063233D58C16ABADEDC /* libPods-telstra_poc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1C765F3E91D95D93D46E3A /* libPods-telstra_poc.a */; };
+		30DCE2111F25E80B00006154 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 30DCE2101F25E80B00006154 /* placeholder.png */; };
+		6D0A9B871F23809600853930 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0A9B861F23809600853930 /* main.m */; };
+		6D0A9B8A1F23809600853930 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0A9B891F23809600853930 /* AppDelegate.m */; };
+		6D0A9B921F23809700853930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D0A9B911F23809700853930 /* Assets.xcassets */; };
+		6D0A9B951F23809700853930 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D0A9B931F23809700853930 /* LaunchScreen.storyboard */; };
+		6D0A9BA01F23809700853930 /* telstra_pocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0A9B9F1F23809700853930 /* telstra_pocTests.m */; };
+		6D0A9BAC1F23819C00853930 /* telstraTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0A9BAB1F23819C00853930 /* telstraTableViewController.m */; };
+		F9478F408E434129CBE4D3D4 /* libPods-telstra_pocTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9358D5BCF02DAFD140DCAF /* libPods-telstra_pocTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D0A9B9C1F23809700853930 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D0A9B7A1F23809600853930 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D0A9B811F23809600853930;
+			remoteInfo = telstra_poc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		026A1F54451CB3617122980E /* Pods-telstra_pocTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-telstra_pocTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-telstra_pocTests/Pods-telstra_pocTests.debug.xcconfig"; sourceTree = "<group>"; };
+		30DCE2101F25E80B00006154 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = placeholder.png; path = ../placeholder.png; sourceTree = "<group>"; };
+		6D0A9B821F23809600853930 /* telstra_poc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = telstra_poc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D0A9B861F23809600853930 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D0A9B881F23809600853930 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D0A9B891F23809600853930 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D0A9B911F23809700853930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D0A9B941F23809700853930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D0A9B961F23809700853930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D0A9B9B1F23809700853930 /* telstra_pocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = telstra_pocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D0A9B9F1F23809700853930 /* telstra_pocTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = telstra_pocTests.m; sourceTree = "<group>"; };
+		6D0A9BA11F23809700853930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D0A9BAA1F23819C00853930 /* telstraTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = telstraTableViewController.h; sourceTree = "<group>"; };
+		6D0A9BAB1F23819C00853930 /* telstraTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = telstraTableViewController.m; sourceTree = "<group>"; };
+		9F65C40E5F1A971818AA384B /* Pods-telstra_poc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-telstra_poc.release.xcconfig"; path = "Pods/Target Support Files/Pods-telstra_poc/Pods-telstra_poc.release.xcconfig"; sourceTree = "<group>"; };
+		DA9358D5BCF02DAFD140DCAF /* libPods-telstra_pocTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-telstra_pocTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1C765F3E91D95D93D46E3A /* libPods-telstra_poc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-telstra_poc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3E290858D26EB7455E3D7D1 /* Pods-telstra_poc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-telstra_poc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-telstra_poc/Pods-telstra_poc.debug.xcconfig"; sourceTree = "<group>"; };
+		F6B36740C58D1657ABAC6DA0 /* Pods-telstra_pocTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-telstra_pocTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-telstra_pocTests/Pods-telstra_pocTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D0A9B7F1F23809600853930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148A0063233D58C16ABADEDC /* libPods-telstra_poc.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D0A9B981F23809700853930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9478F408E434129CBE4D3D4 /* libPods-telstra_pocTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30FA820D1F27407400220EB6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				30DCE2101F25E80B00006154 /* placeholder.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		4F51D8681E27FEB32636A880 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3E290858D26EB7455E3D7D1 /* Pods-telstra_poc.debug.xcconfig */,
+				9F65C40E5F1A971818AA384B /* Pods-telstra_poc.release.xcconfig */,
+				026A1F54451CB3617122980E /* Pods-telstra_pocTests.debug.xcconfig */,
+				F6B36740C58D1657ABAC6DA0 /* Pods-telstra_pocTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5ADC7AF10AD139AE25A5F7FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC1C765F3E91D95D93D46E3A /* libPods-telstra_poc.a */,
+				DA9358D5BCF02DAFD140DCAF /* libPods-telstra_pocTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D0A9B791F23809600853930 = {
+			isa = PBXGroup;
+			children = (
+				6D0A9B841F23809600853930 /* telstra_poc */,
+				6D0A9B9E1F23809700853930 /* telstra_pocTests */,
+				6D0A9B831F23809600853930 /* Products */,
+				4F51D8681E27FEB32636A880 /* Pods */,
+				5ADC7AF10AD139AE25A5F7FF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6D0A9B831F23809600853930 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D0A9B821F23809600853930 /* telstra_poc.app */,
+				6D0A9B9B1F23809700853930 /* telstra_pocTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D0A9B841F23809600853930 /* telstra_poc */ = {
+			isa = PBXGroup;
+			children = (
+				6D0A9BAA1F23819C00853930 /* telstraTableViewController.h */,
+				6D0A9BAB1F23819C00853930 /* telstraTableViewController.m */,
+				6D0A9B881F23809600853930 /* AppDelegate.h */,
+				6D0A9B891F23809600853930 /* AppDelegate.m */,
+				6D0A9B911F23809700853930 /* Assets.xcassets */,
+				6D0A9B931F23809700853930 /* LaunchScreen.storyboard */,
+				6D0A9B961F23809700853930 /* Info.plist */,
+				30FA820D1F27407400220EB6 /* Images */,
+				6D0A9B851F23809600853930 /* Supporting Files */,
+			);
+			path = telstra_poc;
+			sourceTree = "<group>";
+		};
+		6D0A9B851F23809600853930 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D0A9B861F23809600853930 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D0A9B9E1F23809700853930 /* telstra_pocTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D0A9B9F1F23809700853930 /* telstra_pocTests.m */,
+				6D0A9BA11F23809700853930 /* Info.plist */,
+			);
+			path = telstra_pocTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D0A9B811F23809600853930 /* telstra_poc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D0A9BA41F23809700853930 /* Build configuration list for PBXNativeTarget "telstra_poc" */;
+			buildPhases = (
+				E6087ACA80099E40B41E81C8 /* [CP] Check Pods Manifest.lock */,
+				6D0A9B7E1F23809600853930 /* Sources */,
+				6D0A9B7F1F23809600853930 /* Frameworks */,
+				6D0A9B801F23809600853930 /* Resources */,
+				ACC6B12E9E86D683302AA1CC /* [CP] Embed Pods Frameworks */,
+				C7681E4A12601CD105FAD953 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = telstra_poc;
+			productName = telstra_poc;
+			productReference = 6D0A9B821F23809600853930 /* telstra_poc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D0A9B9A1F23809700853930 /* telstra_pocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D0A9BA71F23809700853930 /* Build configuration list for PBXNativeTarget "telstra_pocTests" */;
+			buildPhases = (
+				8BE75AC07B2B8331C6555CA1 /* [CP] Check Pods Manifest.lock */,
+				6D0A9B971F23809700853930 /* Sources */,
+				6D0A9B981F23809700853930 /* Frameworks */,
+				6D0A9B991F23809700853930 /* Resources */,
+				CA7AA81D43B9D90E30C1DD20 /* [CP] Embed Pods Frameworks */,
+				E9B2E7763AF5CB13891E6777 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D0A9B9D1F23809700853930 /* PBXTargetDependency */,
+			);
+			name = telstra_pocTests;
+			productName = telstra_pocTests;
+			productReference = 6D0A9B9B1F23809700853930 /* telstra_pocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D0A9B7A1F23809600853930 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Mehak Kalra";
+				TargetAttributes = {
+					6D0A9B811F23809600853930 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					6D0A9B9A1F23809700853930 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6D0A9B811F23809600853930;
+					};
+				};
+			};
+			buildConfigurationList = 6D0A9B7D1F23809600853930 /* Build configuration list for PBXProject "telstra_poc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D0A9B791F23809600853930;
+			productRefGroup = 6D0A9B831F23809600853930 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D0A9B811F23809600853930 /* telstra_poc */,
+				6D0A9B9A1F23809700853930 /* telstra_pocTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D0A9B801F23809600853930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0A9B951F23809700853930 /* LaunchScreen.storyboard in Resources */,
+				30DCE2111F25E80B00006154 /* placeholder.png in Resources */,
+				6D0A9B921F23809700853930 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D0A9B991F23809700853930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BE75AC07B2B8331C6555CA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ACC6B12E9E86D683302AA1CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-telstra_poc/Pods-telstra_poc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7681E4A12601CD105FAD953 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-telstra_poc/Pods-telstra_poc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA7AA81D43B9D90E30C1DD20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-telstra_pocTests/Pods-telstra_pocTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6087ACA80099E40B41E81C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E9B2E7763AF5CB13891E6777 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-telstra_pocTests/Pods-telstra_pocTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D0A9B7E1F23809600853930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0A9B8A1F23809600853930 /* AppDelegate.m in Sources */,
+				6D0A9BAC1F23819C00853930 /* telstraTableViewController.m in Sources */,
+				6D0A9B871F23809600853930 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D0A9B971F23809700853930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0A9BA01F23809700853930 /* telstra_pocTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D0A9B9D1F23809700853930 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D0A9B811F23809600853930 /* telstra_poc */;
+			targetProxy = 6D0A9B9C1F23809700853930 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D0A9B931F23809700853930 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D0A9B941F23809700853930 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D0A9BA21F23809700853930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6D0A9BA31F23809700853930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D0A9BA51F23809700853930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3E290858D26EB7455E3D7D1 /* Pods-telstra_poc.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = telstra_poc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mehak.telsta.telstra-poc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6D0A9BA61F23809700853930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F65C40E5F1A971818AA384B /* Pods-telstra_poc.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = telstra_poc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mehak.telsta.telstra-poc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6D0A9BA81F23809700853930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 026A1F54451CB3617122980E /* Pods-telstra_pocTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = telstra_pocTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mehak.telsta.telstra-pocTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/telstra_poc.app/telstra_poc";
+			};
+			name = Debug;
+		};
+		6D0A9BA91F23809700853930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6B36740C58D1657ABAC6DA0 /* Pods-telstra_pocTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = telstra_pocTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mehak.telsta.telstra-pocTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/telstra_poc.app/telstra_poc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D0A9B7D1F23809600853930 /* Build configuration list for PBXProject "telstra_poc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D0A9BA21F23809700853930 /* Debug */,
+				6D0A9BA31F23809700853930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D0A9BA41F23809700853930 /* Build configuration list for PBXNativeTarget "telstra_poc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D0A9BA51F23809700853930 /* Debug */,
+				6D0A9BA61F23809700853930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D0A9BA71F23809700853930 /* Build configuration list for PBXNativeTarget "telstra_pocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D0A9BA81F23809700853930 /* Debug */,
+				6D0A9BA91F23809700853930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D0A9B7A1F23809600853930 /* Project object */;
+}
