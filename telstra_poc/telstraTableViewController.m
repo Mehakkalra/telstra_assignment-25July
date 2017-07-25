@@ -40,8 +40,15 @@ CGFloat widthOfFetchedImage=0.0f;
     self.tableView.estimatedRowHeight = 400.0;
     self.tableView.rowHeight = UITableViewAutomaticDimension;
     
+    UIBarButtonItem *button = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(refresh)];
+    self.navigationItem.rightBarButtonItem = button;
+    
     [self getData];
     
+}
+
+-(void)refresh{
+    [self.tableView reloadData];
 }
 
 - (void)getData {
