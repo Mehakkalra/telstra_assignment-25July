@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '449D35B9E6F910FE8F889B2E6675FAC0'
+               BlueprintIdentifier = '326A98467769BFA8B0936512983A0A87'
                BlueprintName = 'Pods-telstra_poc'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-telstra_poc.a'>
